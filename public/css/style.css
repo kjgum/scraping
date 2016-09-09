@@ -1,0 +1,105 @@
+body {
+    font-family: Arial;
+    text-align: center;
+    background-image: url('/../img/desktop.png');
+    background-repeat: none;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    overflow-x: hidden;
+}
+
+.newNote {
+    background-image: url('/../img/newNote.png');
+    background-repeat: none;
+    background-size: cover;
+}
+.previousNote {
+	    background-image: url('/../img/previousNote.png');
+    background-repeat: none;
+    background-size: cover;
+}
+
+/*h1 {
+    text-align: center;
+    font-weight: bold;
+    font-size: 80px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}*/
+
+/*#wrapper {
+    width: 1600px;
+    height: 100%;
+    margin: 0 auto;
+}
+*/
+
+
+#content {
+		background-image: url('/../img/dictonary.png');
+    background-repeat: none;
+    background-size: cover;
+    overflow: auto;
+    box-shadow: 2px 2px 5px black;
+}
+
+.comments {
+    width: 400px;
+    height: 225px;
+    overflow: auto;
+    box-shadow: 2px 2px 5px black;
+}
+
+/*@media (max-width: 1600px) {
+    #picture,
+    #content {
+        width: 350px;
+        height: 197px;
+        border: 2px solid black;
+        text-align: center;
+    }
+    #picture {
+        margin-left: 60px;
+    }
+    #lifter {
+        margin-top: 90px;
+        max-width: 370px;
+    }
+}
+
+@media (max-width: 1200px) {
+    #picture,
+    #content {
+        width: 300px;
+        height: 169px;
+        border: 2px solid black;
+        text-align: center;
+    }
+    #picture {
+        margin-left: 20px;
+    }
+    #lifter {
+        margin-top: 80px;
+        max-width: 140px;
+    }
+}
+
+@media (max-width: 768px) {
+    #picture,
+    #content {
+        width: 192px;
+        height: 108px;
+        border: 2px solid black;
+        text-align: center;
+    }
+    #picture {
+        margin-left: 5px;
+    }
+    #lifter {
+        margin-top: 60px;
+        max-width: 100px;
+    }
+}*/
