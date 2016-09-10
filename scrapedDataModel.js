@@ -1,8 +1,9 @@
 // require mongoose
-var mongoose = require('mongoose');
+var mongoose = require('mongoose')
+	, Schema = mongoose.Schema;
 
 // new Schema
-var ScrapedDataSchema = new mongoose.Schema({
+var ScrapedDataSchema = Schema({
 	title: {
 		type: String,
 		required: true,
@@ -19,8 +20,13 @@ var ScrapedDataSchema = new mongoose.Schema({
 	articleURL: {
 		type: String,
 		required: true
-	}
-})
+	},
+	comments: [{
+		text: {
+			type: String 
+		}
+	}]
+});
 
 // use the above schema to make the ScrapedData model
 var ScrapedData = mongoose.model('ScrapedData', ScrapedDataSchema);

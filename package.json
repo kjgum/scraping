@@ -1,22 +1,22 @@
 {
-  "name": "scraping",
+  "name": "week18homework",
   "version": "1.0.0",
-  "description": "",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/kjgum/scraping.git"
+    "start": "nodemon server.js"
   },
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/kjgum/scraping/issues"
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "cheerio": "^0.20.0",
+    "express": "^4.13.4",
+    "express-handlebars": "^3.0.0",
+    "mongojs": "^2.4.0",
+    "mongoose": "^4.6.0",
+    "request": "^2.69.0"
   },
-  "homepage": "https://github.com/kjgum/scraping#readme",
-  "dependencies": {},
-  "devDependencies": {}
+  "devDependencies": {},
+  "description": ""
 }
